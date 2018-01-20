@@ -1,8 +1,10 @@
 # Nexis-Webscraper-
 
-# Description: NexisWebscraper takes in a company name/search query and collects data from every article within the specified parameters from the Nexis Uni database through webscraping. The client can specify a time frame, a search query, and a list of publication types. The program extracts the title, date, publisher, word count, and all of each article's text (every article fitting the search query and the filters). Inputs the data into a given excel workbook and sheet (prints after every page, or after every ten articles collected).
+# Description: See GitHub description. 
 
 # User-Specified Inputs / Parameters: Time Frame (year and month for cut-off), Search Query, Login Net-Id and Password, Publication Types, Excel Workbook / Sheet
+
+# Outputs: Prints article title, publication type, publisher, word count, and all of the article's text into an excel workbook (.xls). 
 
 # Pre: Download Apache POI zip files, Commons Collection, geckodriver, and Selenium WebDriver
 # 		 Configure build path in Eclipse - add external jars: 
